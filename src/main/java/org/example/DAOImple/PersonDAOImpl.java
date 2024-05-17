@@ -111,7 +111,7 @@ public class PersonDAOImpl implements PersonDAO {
             e.printStackTrace();
             System.out.println("person detailes are not updated"+e.getMessage());
         }
-        return null;
+        return person;
     }
 
     @Override
